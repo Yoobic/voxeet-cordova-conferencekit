@@ -1,6 +1,5 @@
 #!/bin/bash
+CURR_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
-[[ "${VOXEET_SKIP_IOS_BUILD}" == "true" ]] && echo "skip build ios" && exit 0
-
-echo "starting carthage"
-carthage update --platform ios --verbose --project-directory ./src/ios
+echo "starting carthage in $CURR_DIR"
+carthage update --platform ios --verbose --project-directory $CURR_DIR/src/ios
