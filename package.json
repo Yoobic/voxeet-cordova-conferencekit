@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-voxeet2",
-  "version": "1.0.23-4",
+  "version": "1.0.23-5",
   "description": "Cordova Voxeet Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -26,8 +26,7 @@
   ],
   "scripts": {
     "test": "npm run eslint",
-    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
-    "postinstall": "bash build_ios_frameworks_only.sh"
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests"
   },
   "author": "Voxeet",
   "license": "GPL-3.0",
