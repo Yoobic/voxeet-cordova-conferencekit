@@ -18,14 +18,14 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-      id="cordova-plugin-voxeet"
-      version="1.0.23">
+      id="cordova-voxeet"
+      version="1.0.0">
     <name>Voxeet</name>
     <description>Cordova Voxeet Plugin</description>
     <license>GNU GPL v3</license>
     <keywords>cordova,voxeet</keywords>
-    <repo>https://github.com/voxeet/voxeet-cordova-conferencekit.git</repo>
-    <issue>https://github.com/voxeet/voxeet-cordova-conferencekit/issues</issue>
+    <repo>https://github.com/Yoobic/voxeet-cordova-conferencekit.git</repo>
+    <issue>https://github.com/Yoobic/voxeet-cordova-conferencekit/issues</issue>
 
     <js-module src="www/Voxeet.js" name="Voxeet">
         <clobbers target="Voxeet" />
