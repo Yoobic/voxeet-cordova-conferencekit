@@ -30,10 +30,8 @@
     "release": "npm version patch && npm publish"
   },
   "author": "Voxeet",
-  "license": "GPL-3.0",
-  "engines": {
-    "cordova": ">=7.0.0"
-  },
+  "license": "Apache-2.0",
+  "engines": { "cordova": ">=7.0.0"},
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-semistandard": "^11.0.0",
