@@ -1,6 +1,6 @@
 {
   "name": "cordova-voxeet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cordova Voxeet Plugin - Revised",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -31,7 +31,9 @@
   },
   "author": "Voxeet",
   "license": "Apache-2.0",
-  "engines": { "cordova": ">=7.0.0"},
+  "engines": {
+    "cordova": ">=7.0.0"
+  },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-semistandard": "^11.0.0",
