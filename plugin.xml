@@ -37,6 +37,22 @@
 
     <!-- android -->
     <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <meta-data android:name="rn_voxeet_incoming_call_accepted_or_declined" android:value="com.yoobic.operations.MainActivity" />
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <service android:name="voxeet.com.sdk.firebase.VoxeetFirebaseMessagingService">
+                <intent-filter android:priority="999">
+                    <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                </intent-filter>
+            </service>
+            <service android:name="voxeet.com.sdk.firebase.VoxeetFirebaseInstanceIDService">
+                <intent-filter android:priority="999">
+                    <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                </intent-filter>
+            </service>       
+        </config-file>
+
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.INTERNET" />
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
