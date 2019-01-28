@@ -15,14 +15,4 @@ dependencies {
     compile ('com.voxeet.sdk:toolkit:1.3') {
         transitive = true
     }
-    classpath 'com.google.gms:google-services:4.1.0'
-}
-
-// check for the environment variable to apply the push notification
-// to enable push notification in builds : export USE_PUSH_NOTIFICATION=true
-def push = System.getenv("USE_PUSH_NOTIFICATION")
-if ("true".equals(push)) {
-  cdvPluginPostBuildExtras.add({
-    apply plugin: 'com.google.gms.google-services'
-  })
 }
