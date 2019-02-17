@@ -1,6 +1,14 @@
-Voxeet Cordova Plugin
+cordova-voxeet
+
 
 # cordova-plugin-voxeet
+
+This is an alternative distribution for the https://github.com/voxeet/voxeet-cordova-conferencekit. 
+The project is kept up to date with the original project with the following changes: 
+
+Plugins are submitted to be installed from npm using `npm install cordova-voxeet`. 
+NPM versions are published and are not the same as the original project. 
+The installation process is inline with cordova practices, so the dependent framework are only built when the plugin is added to an ios pltform, either by installing the plugin or addig the platform when the plugin is already defined in config.xml / package.json. 
 
 This plugin is bridging the Voxeet's Toolkit/ConferenceKit calls. You can interacting with the plugin after the Cordova's deviceReady event.
 

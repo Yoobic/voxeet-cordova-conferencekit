@@ -4,7 +4,7 @@
   "description": "Cordova Voxeet Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-voxeet",
+    "id": "cordova-voxeet",
     "platforms": [
       "android",
       "ios"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/voxeet/voxeet-cordova-conferencekit"
+    "url": "https://github.com/Yoobic/voxeet-cordova-conferencekit"
   },
   "bugs": {
     "url": "https://github.com/voxeet/voxeet-cordova-conferencekit/issues"
@@ -27,11 +27,14 @@
   "scripts": {
     "test": "npm run eslint",
     "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
-    "postinstall": "bash build_ios_frameworks_only.sh"
+    "prerelease": "mcfly-semantic-release --files package.json plugin.xml",
+    "release": "npm publish"
   },
   "author": "Voxeet",
   "license": "Apache-2.0",
-  "engines": { "cordova": ">=7.0.0"},
+  "engines": {
+    "cordova": ">=7.0.0"
+  },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-semistandard": "^11.0.0",
@@ -40,6 +43,7 @@
     "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
-    "jshint": "^2.6.0"
+    "jshint": "^2.6.0",
+    "mcfly-semantic-release": "^1.1.6"
   }
 }
