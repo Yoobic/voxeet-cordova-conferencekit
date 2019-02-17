@@ -1,5 +1,28 @@
 # Release Notes
 
+### 1.0.29 (February 10th, 2019)
+  - Android, used upgraded SDK version with preferences saved accross (prevent miss configuration)
+  - if set by default, start video for accepted calls
+
+### 1.0.28 (January 30th, 2019)
+  - Android, wider range of devices with proper phone/media audio management
+
+### 1.0.27 (January 29th, 2019)
+  - (Android :)
+  - fix volume implementation
+  - users wrongly displayed are now properly displayed
+  - joining a conference with video by default now works in the create->join
+  - screen on / proximity sensors work by default
+  - mic permission is managed prior joining a conference
+  - removed default timeout
+
+### 1.0.26 (January 23th, 2019)
+  - add possible USE_PUSH_NOTIFICATION system variable to enable Firebase in the Android compilation
+
+### 1.0.25 (January 21th, 2019)
+  - use Android sdk (1.4) with AEC and NS by default
+  - toolkit now use the overlay properly everytime
+
 ### 1.0.24 (January 16th, 2019)
   - use Android sdk update with better support of connectivity
 

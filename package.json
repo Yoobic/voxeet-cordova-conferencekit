@@ -1,6 +1,6 @@
 {
   "name": "cordova-voxeet",
-  "version": "1.0.5",
+  "version": "1.0.28",
   "description": "Cordova Voxeet Plugin - Revised",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -36,14 +36,14 @@
     "cordova": ">=7.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-semistandard": "^11.0.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-node": "^5.0.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "jshint": "^2.6.0",
-    "mcfly-semantic-release": "^1.1.6"
+    "eslint": "^5.14.0",
+    "eslint-config-semistandard": "^13.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jshint": "^2.10.1",
+    "mcfly-semantic-release": "^1.1.7"
   }
 }
