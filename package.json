@@ -1,6 +1,6 @@
 {
   "name": "cordova-voxeet",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "Cordova Voxeet Plugin - Revised",
   "types": "./types/index.d.ts",
   "cordova": {
